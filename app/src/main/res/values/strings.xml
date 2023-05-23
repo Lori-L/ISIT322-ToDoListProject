@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GSD</string>
+    <string name="main_text"> PROJECT: Tasks Near You\n\n
+        Upcoming Tasks\n
+        "8:30 AM" "@" "[place]"  This Place\n
+        "8:30 AM" "@" "[place]"  This Place\n
+        "8:30 AM" "@" "[place]"  This Place\n
+        "8:30 AM" "@" "[place]"  This Place\n
+        "8:30 AM" "@" "[place]"  This Place\n
+        "8:30 AM" "@" "[place]"  This Place\n
+        "8:30 AM" "@" "[place]"  This Place\n
+        "8:30 AM" "@" "[place]"  This Place\n
+</string>
+    <string name="create_text">CREATE A TASK\n\n
+    Task Name\n
+    Description\n
+    Location\n
+    Time-span\n
+    Group Category</string>
+    <string name="create">Create A Task</string>
+    <string name="create_two">CREATE</string>
+    <string name="view">View All Tasks</string>
+</resources>
