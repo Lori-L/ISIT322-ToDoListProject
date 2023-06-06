@@ -22,5 +22,5 @@
     <string name="view">View All Tasks</string>
 
 
-
+    <string name="notificationButtonText">Test Notification</string>
 </resources>
