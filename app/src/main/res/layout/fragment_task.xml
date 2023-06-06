@@ -9,20 +9,48 @@
     android:gravity="center_horizontal"
     tools:context=".TaskFragment">
 
-<EditText
+    <EditText
+    android:id="@+id/fieldOne"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
     android:layout_marginTop="20dp"
     android:textSize="20sp"
-    android:text="@string/create_text" />
+    android:hint="Enter Task Name" />
 <!--    android:hint="@string/create"-->
 <!--    android:inputType="textMultiLine" />-->
 
+
+    <EditText
+        android:id="@+id/fieldTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:hint="Enter Task Description" />
+
+    <EditText
+        android:id="@+id/fieldThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:hint="Enter A Location" />
+
     <Button
-        android:id="@+id/create"
+        android:id="@+id/createButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/create_two" />
+        android:text="@string/create_two"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:id="@+id/confirmation"
+        android:layout_width="163dp"
+        android:layout_height="37dp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
 </LinearLayout>
