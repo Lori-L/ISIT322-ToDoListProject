@@ -18,6 +18,9 @@
     Time-span\n
     Group Category</string>
     <string name="create">Create A Task</string>
-    <string name="create_two">CREATE</string>
+    <string name="create_two">CREATE TASK</string>
     <string name="view">View All Tasks</string>
+
+
+
 </resources>
