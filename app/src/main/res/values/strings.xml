@@ -20,4 +20,5 @@
     <string name="create">Create A Task</string>
     <string name="create_two">CREATE</string>
     <string name="view">View All Tasks</string>
+    <string name="notificationButtonText">Test Notification</string>
 </resources>
