@@ -14,11 +14,18 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 @RunWith(AndroidJUnit4::class)
-class ExampleInstrumentedTest {
+class ExampleInstrumentedTestt {
     @Test
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.hfad.gsd", appContext.packageName)
+    }
+
+    @Test
+    fun e() {
+        // Context of the app under test.
+        val appContext = ApiHandler()
+        assertEquals(4, 2+2)
     }
 }
