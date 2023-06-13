@@ -15,9 +15,7 @@ class GpsHandler : AppCompatActivity(), LocationListener{
     public var latitude: Double? = null
     public var longitude: Double? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+    fun start() {
         Log.d("GPSHandler", "OnCreate Called")
         locationManager = getSystemService(AppCompatActivity.LOCATION_SERVICE) as LocationManager
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
